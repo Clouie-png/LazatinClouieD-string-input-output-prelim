@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-
+import InputOutput from './InputOutput';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>
+        Prelims #2 - Clouie Lazatin
+      </h2>
+      <p>
+      2.	Create a reactjs project that accept 
+      string value input and outputs a string value(20pts)
+      </p>
+      <InputOutput/>
+
     </div>
   );
 }
